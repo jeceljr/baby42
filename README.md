@@ -6,7 +6,7 @@ A key design goal was that it should be nice to program in assembly language and
 
 Being typical has some educational value, and this processor is a typical load/store architecture with 16 registers. It doesn't have a status register, but that is also the case for some other RISCs.
 
-Being non typical also has educational value since students can see that there are different ways of doing things. The exclusive use of skips for conditional execution and the use of "cascades" to combine pairs of operations is unusual.
+Being non typical also has educational value since students can see that there are different ways of doing things. The exclusive use of skips for conditional execution and the use of "cascades" to combine pairs of operations is unusual. The algebra-style syntax for the assembly is pretty different.
 
 The same design allows slight variations like baby22 (16 bit data, 16 bit instructions) and baby042 (24 bit data and 12 bit instructions).
 
